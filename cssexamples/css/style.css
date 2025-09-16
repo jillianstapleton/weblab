@@ -1,12 +1,25 @@
-body{background-color: lightskyblue;
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+body{
+    background-color: lightskyblue;
 }
-h1{font-family: 'Times New Roman', Times, serif;
+
+h1{font-family: "roboto", sans-serif;
     text-align: center;
+    font-weight: 600;
+    font-style: italic;
 }
-h2{font-family:'Times New Roman', Times, serif;
+h2{font-family:'Times New Roman', Times, sans-serif;
 text-transform: capitalize;
 }
-ul{list-style:square}
+ul{list-style:square;}
 ul li{color:blue}
 li{text-decoration: wavy;}
 a:hover{color: silver;}
+img{height:300px;}
+/* use width or height when seeting img sizes */
+.imageGallery{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
