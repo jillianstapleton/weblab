@@ -2,7 +2,31 @@
 body{
     background-color: lightskyblue;
 }
-
+header{
+    width: 0px auto;
+    background-color: magenta;
+    height: 0px auto;
+    padding: 20px; 
+    border-bottom: 5px dotted orange;
+    border-top: 5px dashed orange;
+    margin: 0px auto;
+}
+main{width:960px;
+background-color:plum;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+border-left: 5px dotted orange;
+border-right: 5px dotted orange;
+margin: 0px auto;
+}
+footer{
+    width:960px;
+    background-color: yellow;
+    border-bottom: 5px dashed orange;
+    margin: 0px auto;
+}
 h1{font-family: "roboto", sans-serif;
     text-align: center;
     font-weight: 600;
@@ -18,8 +42,41 @@ a:hover{color: silver;}
 img{height:300px;}
 /* use width or height when seeting img sizes */
 .imageGallery{
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    width: 400px;
+   
+}
+.green{
+    color: green;
+}
+nav{
+width:400px;
+margin:0px auto;
+border-bottom:black 1px solid;
+}
+nav ul{
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    text-decoration: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family:"roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color:blueviolet;
+
+
+
+}
+
+nav ul li a:hover{
+    background-color:aquamarine;
+    
+
 }
