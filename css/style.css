@@ -1,18 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+h1{
+    font-family: 'amarante', cursive;
+}
+h2{
+    font-family: "amarante", cursive;
+}
+h3{
+    font-family: "amarante", cursive;
+}
 body{
-    background-color:darkolivegreen
+    background-color: white;
+    font-family: "Amarante", cursive;
+    margin: 0;
 }
 header{
-    width: 0px auto;
+    width: auto;
     background-color: white;
-    height: 0px auto;
     padding: 20px;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
-    margin: 0px auto;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    margin: 0 auto;
+}
+main{
+width: auto;
+background-color: white;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+border-left: 5px solid black;
+border-right: 5px solid black;
+border-bottom: 5px solid black;
+margin: 0 auto;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    box-shadow: 8px 8px 8px rgb(96, 183, 245);
+
+}
+.gallery img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.highlight{
+    background-color: rgb(149, 197, 243);
+    padding: 5px;
+    border-radius: 5px;
+}
+footer{
+    width: auto;
+    height: auto;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+.footer-info{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
+nav{
+width:400px;
+margin:0 auto;
+border-bottom: 1px solid black;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
 
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    text-decoration: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family:"Amarante", cursive;
+    font-size: 20px;
+    font-weight: 900;
+    color:rgb(21, 71, 163);
+    padding: 5px 20px;
+    border-radius: 5px;
+
+
+
+}
+
+nav ul li a:hover{
+    background-color:rgb(108, 171, 229);
+    
+
+}
 
 
 
