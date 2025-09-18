@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+body{
+    background-color:darkolivegreen
+}
+header{
+    width: 0px auto;
+    background-color: white;
+    height: 0px auto;
+    padding: 20px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+
